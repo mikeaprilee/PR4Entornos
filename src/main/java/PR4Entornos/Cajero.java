@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.lorenzo.pr4entornos;
+package PR4Entornos;
 
 import java.util.ArrayList;
 
@@ -17,6 +17,10 @@ public class Cajero {
     double t;
     ArrayList<Producto> ps;
 
+    /**
+     * 
+     * @param n 
+     */
     public Cajero(String n) {
         this.n = n;
         this.c = 0;
